@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>个人主页</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+            nav ul li a:hover {
+                background-color: #555;
+            }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        section#experience li:before {
+            content: "\f0b1";
+            font-family: FontAwesome;
+            color: #fff;
+            padding-right: 10px;
+        }
+
+        section#experience p, #about p, #experience li h3, #experience li p, #skills li {
+            font-size: 18px;
+            color: white;
+        }
+
+        section#skills ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        section#skills li {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 5px 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+        /* 背景图片样式 */
+        body {
+            background-image: url('benz.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>个人主页</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">自我介绍</a></li>
+                <li><a href="#experience">个人经历</a></li>
+                <li><a href="#skills">个人技能</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>自我介绍</h2>
+            <p>我叫陈坤灿，是一名大数据专业的大学生。我热爱编程和技术创新，对新兴技术有浓厚的兴趣。</p>
+            <p>我喜欢挑战自己，不断学习新知识，提高自己的技能水平。我拥有出色的解决问题能力和团队协作精神。我相信我的热情和努力会成为我成为一名出色的工程师的必要条件。</p>
+        </section>
+
+        <section id="experience">
+            <h2>个人经历</h2>
+            <ul>
+                <li>
+                    <p> 就读于福建工程学院数据科学与大数据技术专业</p>
+                    <p> CSGO福建工程学院完美战力第8</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>个人技能</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Personal Website</p>
+    </footer>
+</body>
+</html>
